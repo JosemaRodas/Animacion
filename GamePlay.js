@@ -6,9 +6,9 @@ GamePlayManager = {
     },
     preload: function() {
 		var me=this;
-        me.load.image('background',"assets/images/montaña.png");
-		me.load.spritesheet("terodactilo","assets/images/terodactilo.png",96,97);
-		me.load.spritesheet("dinosaurio","assets/images/SP.png",72,161);
+        me.load.image('background',"montaña.png");
+		me.load.spritesheet("terodactilo","terodactilo.png",96,97);
+		me.load.spritesheet("dinosaurio","SP.png",72,161);
 		
     },
     create: function() {
